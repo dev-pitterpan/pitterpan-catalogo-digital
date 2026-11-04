@@ -17,7 +17,8 @@
     "shopify:publish": "node scripts/shopify-publish.ts",
     "test:scale": "node --experimental-strip-types --test tests/scale.test.ts",
     "shopify:report": "node scripts/shopify-report.ts",
-    "test:server": "node tests/server.mjs"
+    "test:server": "node tests/server.mjs",
+    "env:import": "node scripts/import-env.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.104.5",
